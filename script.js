@@ -6,11 +6,11 @@ function Menu(e) {
     e.name = "close";
     list.classList.add("top-[80px]");
     list.classList.add("opacity-100");
-    list.classList.add("bg-gray-200"); // Add the Tailwind CSS class for background color
+    list.classList.add("bg-gray-200");
   } else {
     e.name = "menu";
     list.classList.remove("top-[80px]");
     list.classList.remove("opacity-100");
-    list.classList.remove("bg-gray-200"); // Remove the Tailwind CSS class for background color
+    list.classList.remove("bg-gray-200"); 
   }
 }
