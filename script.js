@@ -1,4 +1,4 @@
-function Menu(e) {
+function menu(e) {
   let list = document.querySelector("ul");
   let nav = document.querySelector("nav");
 
