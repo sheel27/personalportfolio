@@ -1,8 +1,8 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const navIcon = document.getElementById("navIcon");
+  const navLinks = document.getElementById("navLinks");
 
-function toggleNavbar() {
-  const navbar = document.getElementById('navbar');
-  navbar.classList.toggle('show');
-}
-
-const navIcon = document.getElementById('navIcon');
-navIcon.onclick = toggleNavbar;
+  navIcon.addEventListener("click", function () {
+    navLinks.classList.toggle("hidden");
+  });
+});
