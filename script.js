@@ -1,3 +1,3 @@
 $('.icon').click(function(){
-  $('span').toggleClass("cancel");
+  $('i').toggleClass("cancel");
 });
